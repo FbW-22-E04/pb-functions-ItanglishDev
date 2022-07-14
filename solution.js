@@ -32,3 +32,12 @@ function stringCheck(string, word) {
 }
 // console.log(stringSli);
 stringCheck("tu", "tum");
+
+function lessThan(numOne) {
+  if (numOne <= 0) {
+    console.log(true);
+  } else {
+    console.log(false);
+  }
+}
+lessThan(0);
