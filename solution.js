@@ -20,3 +20,15 @@ function returnCubes(numOne, numTwo, numThree) {
 }
 
 returnCubes(1, 5, 9);
+
+function stringCheck(string, word) {
+  let stringSli = "";
+  stringSli = word.slice(0, 2);
+  if (string == stringSli) {
+    console.log("true");
+  } else {
+    console.log("false");
+  }
+}
+// console.log(stringSli);
+stringCheck("tu", "tum");
