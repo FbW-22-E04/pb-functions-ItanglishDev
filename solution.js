@@ -111,3 +111,67 @@ function whereIsWaldo(question) {
 }
 
 whereIsWaldo("Is he anywhere?");
+
+// Ex 10
+
+function pie(numOfSli, numOfRec, slicesPerP) {
+  if (numOfRec * slicesPerP > numOfSli) {
+    console.log(false);
+  } else {
+    console.log(true);
+  }
+}
+
+pie(24, 12, 2);
+
+// Ex 11
+
+function xo(string) {
+  let stringArray = "";
+  stringArray = string.split("");
+  //   console.log(stringArray);
+  let oCounter = 0;
+  let xCounter = 0;
+  for (let i = 0; i < stringArray.length; i++) {
+    if (stringArray[i] === "x") {
+      xCounter++;
+    } else if (stringArray[i] === "o") {
+      oCounter++;
+    } else {
+      //   console.log("none 11", true);
+    }
+  }
+  if (xCounter === oCounter) {
+    console.log(true, "11");
+  } else {
+    console.log(false, "11");
+  }
+}
+
+xo("oooxx");
+
+// Ex 12
+
+function isPrime (integer) (
+    if (condition) {
+        
+    } else {
+        
+    }
+)
+
+// Ex 13
+
+function email(string) {
+  let stringArray = "";
+  stringArray = string.split("");
+  if (stringArray.includes("@")) {
+    if (stringArray.includes(".")) {
+    } else {
+    }
+  } else {
+    console.log(false, "invalid");
+  }
+}
+
+email("email@email.it");
