@@ -15,11 +15,15 @@ console.log(sumRes);
 // let secondCube = 0;
 // let thirdCube = 0;
 
+// Ex 2
+
 function returnCubes(numOne, numTwo, numThree) {
   console.log(numOne ** 3 + numTwo ** 3 + numThree ** 3);
 }
 
 returnCubes(1, 5, 9);
+
+// Ex 3
 
 function stringCheck(string, word) {
   let stringSli = "";
@@ -33,6 +37,8 @@ function stringCheck(string, word) {
 // console.log(stringSli);
 stringCheck("tu", "tum");
 
+// Ex 4
+
 function lessThan(numOne) {
   if (numOne <= 0) {
     console.log(true);
@@ -41,6 +47,8 @@ function lessThan(numOne) {
   }
 }
 lessThan(0);
+
+// Ex 5
 
 function countOcc(stringOne, stringTwo) {
   let words = stringOne.split(" ");
@@ -56,3 +64,5 @@ function countOcc(stringOne, stringTwo) {
 }
 
 countOcc("today was a good day", "a");
+
+// Ex 6
