@@ -86,15 +86,28 @@ dogYears(7);
 
 function aLifetime(age, numOfSnacks, maxAge) {
   let ageDiff = 0;
+
   if (maxAge == 100) {
     ageDiff = 100 - age;
     console.log(Math.ceil(ageDiff * 365.25 * numOfSnacks));
   } else {
-    ageDiff = 100 - maxAge - age;
+    ageDiff = maxAge - age;
     console.log(Math.ceil(ageDiff * 365.25 * numOfSnacks));
   }
 }
 
-aLifetime(25, 2, 65);
+aLifetime(32, 2, 65);
 
 // Ex 9
+
+function whereIsWaldo(question) {
+  let questionArray = "";
+  questionArray = question.split(" ");
+  if (questionArray.includes("waldo")) {
+    console.log(true);
+  } else {
+    console.log(false);
+  }
+}
+
+whereIsWaldo("Is he anywhere?");
