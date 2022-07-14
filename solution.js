@@ -66,3 +66,10 @@ function countOcc(stringOne, stringTwo) {
 countOcc("today was a good day", "a");
 
 // Ex 6
+
+function xToThe(baseNum, exponNum) {
+  let result = baseNum ** exponNum;
+  console.log(result);
+}
+
+xToThe(3, 3);
