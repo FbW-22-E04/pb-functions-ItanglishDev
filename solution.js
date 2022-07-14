@@ -81,3 +81,13 @@ function dogYears(humanYears) {
 }
 
 dogYears(7);
+
+// Ex 8
+
+function aLifetime(age, numOfSnacks) {
+  let ageDiff = 0;
+  ageDiff = 100 - age;
+  console.log(Math.ceil(ageDiff * 365.25 * numOfSnacks));
+}
+
+aLifetime(25, 2);
