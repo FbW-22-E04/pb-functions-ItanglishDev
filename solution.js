@@ -41,3 +41,18 @@ function lessThan(numOne) {
   }
 }
 lessThan(0);
+
+function countOcc(stringOne, stringTwo) {
+  let words = stringOne.split(" ");
+  let counterOne = 0;
+  //   console.log(words);
+  for (let i = 1; i < words.length; i++) {
+    if (words.includes(stringTwo)) {
+      counterOne++;
+    } else {
+    }
+  }
+  console.log(counterOne);
+}
+
+countOcc("today was a good day", "a");
