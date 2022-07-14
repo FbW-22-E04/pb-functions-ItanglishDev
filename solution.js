@@ -84,10 +84,17 @@ dogYears(7);
 
 // Ex 8
 
-function aLifetime(age, numOfSnacks) {
+function aLifetime(age, numOfSnacks, maxAge) {
   let ageDiff = 0;
-  ageDiff = 100 - age;
-  console.log(Math.ceil(ageDiff * 365.25 * numOfSnacks));
+  if (maxAge == 100) {
+    ageDiff = 100 - age;
+    console.log(Math.ceil(ageDiff * 365.25 * numOfSnacks));
+  } else {
+    ageDiff = 100 - maxAge - age;
+    console.log(Math.ceil(ageDiff * 365.25 * numOfSnacks));
+  }
 }
 
-aLifetime(25, 2);
+aLifetime(25, 2, 65);
+
+// Ex 9
