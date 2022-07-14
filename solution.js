@@ -11,6 +11,12 @@ function addUp(arg) {
 addUp(4);
 console.log(sumRes);
 
-let firstCube = 0;
-let secondCube = 0;
-let thirdCube = 0;
+// let firstCube = 0;
+// let secondCube = 0;
+// let thirdCube = 0;
+
+function returnCubes(numOne, numTwo, numThree) {
+  console.log(numOne ** 3 + numTwo ** 3 + numThree ** 3);
+}
+
+returnCubes(1, 5, 9);
