@@ -73,3 +73,11 @@ function xToThe(baseNum, exponNum) {
 }
 
 xToThe(3, 3);
+
+// Ex 7
+
+function dogYears(humanYears) {
+  console.log("Your doggo is", humanYears * 7, "years old in dog years");
+}
+
+dogYears(7);
